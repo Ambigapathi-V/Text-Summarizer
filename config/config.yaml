@@ -6,3 +6,8 @@ data_ingestion:
   source_URL : data/data.zip
   local_data_file : data/data.zip
   unzip_dir : artifacts/data_ingestion
+
+data_transformation:
+  root_dir : artifacts/data_transformation
+  data_path : artifacts/data_ingestion/samsum_dataset
+  tokenizer_name : google/pegasus-cnn_dailymail
