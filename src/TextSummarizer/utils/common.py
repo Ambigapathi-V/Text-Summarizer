@@ -31,8 +31,8 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         logger.error(f"Error reading YAML file: {path_to_yaml}, {e}")
         sys.exit(1)
 
-@ensure_annotations
-def create_directories(path_to_directories: List[str], verbose: bool = True) -> None:
+#@ensure_annotations
+def create_directories(path_to_directories: list[str], verbose: bool = True) -> None:
     """
     Create directories if they do not exist.
     
