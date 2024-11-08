@@ -18,4 +18,5 @@ fastapi
 uvicorn
 Jinja2
 evaluate
+tf-keras
 -e .
